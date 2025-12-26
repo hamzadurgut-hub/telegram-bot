@@ -61,7 +61,7 @@ OPT1_DETAILS = (
     "✅ You've selected the %200 Bonus.\n\n"
     "Requirements:\n"
     "💸 Minimum Deposit: $25\n"
-    "💰 Maximum Deposit: $25,000\n"
+    "💰 Maximum Deposit: $50,000\n"
     "🎰 Wager Requirement: x1\n\n"
     "💡 Example: Deposit $100 to get $300 credited to your Stake account.\n"
     "You must place bets totaling $300 to complete the wagering requirement.\n"
