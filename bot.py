@@ -14,7 +14,7 @@ from telegram.ext import (
 
 TOKEN = os.environ["BOT_TOKEN"]
 
-SITE_URL = "https://stake112.com/"
+SITE_URL = "https://stake.com/"
 
 def build_personal_link(user_input: str) -> str:
     text = user_input.strip()
@@ -150,9 +150,9 @@ async def handle_user_input(update: Update, context: ContextTypes.DEFAULT_TYPE):
     domain_key = context.user_data.get("selected_domain")
 
     links = {
-        "domain_1": "https://stake112.com/",
-        "domain_2": "https://stake112.com/",
-        "domain_3": "https://stake112.com/",
+        "domain_1": "https://stake.com/",
+        "domain_2": "https://stake.com/",
+        "domain_3": "https://stake.com/",
     }
     user_value = context.user_data.get("last_input", "")
     safe_user = quote(user_value.strip())
